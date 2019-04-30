@@ -1,0 +1,1314 @@
+//By @ImWizardly aka W1z4rd
+//Example: /Number/Number/Number/ /Number
+//*********************************************************************************************
+int divide = 3;//you can change the encode and decode of hex manually by
+//changing the numbers
+int multiply = 1;//Remember that if this is set to 0 than the number will be multiplyied by 0!
+int subtract = 100000;
+int add = 50;
+//Characters and numbers are much smaller than letters so i made a sepperate thing to modify
+int multiply1 = 1;//Remember that is this is set to 0 than the number will be multiplied by 0!
+int subtract1 = 0;
+int add1 = 100;
+int divide1 = 1;
+int BAUD = 9600;
+
+//Letters
+long A = 886435L / divide * multiply - subtract + add;
+long B = 576456L / divide * multiply - subtract + add;
+long C = 1107459L / divide * multiply - subtract + add;
+long D = 354524L / divide * multiply - subtract + add;
+long E = 1329837L / divide * multiply - subtract + add;
+long F = 132327L / divide * multiply - subtract + add;
+long G = 1552083L / divide * multiply - subtract + add;
+long H = 1664511L / divide * multiply - subtract + add;
+long I = 1775625L / divide * multiply - subtract + add;
+long J = 1775625L / divide * multiply - subtract + add;
+long K = 899093L / divide * multiply - subtract + add;
+long L = 765433L / divide * multiply - subtract + add;
+long M = 919374L / divide * multiply - subtract + add;
+long N = 646872L / divide * multiply - subtract + add;
+long O = 646875L / divide * multiply - subtract + add;
+long P = 950133L / divide * multiply - subtract + add;
+long Q = 637209L / divide * multiply - subtract + add;
+long R = 970359L / divide * multiply - subtract + add;
+long S = 617031L / divide * multiply - subtract + add;
+long T = 990729L / divide * multiply - subtract + add;
+long U = 596997L / divide * multiply - subtract + add;
+long V = 586917L / divide * multiply - subtract + add;
+long W = 576819L / divide * multiply - subtract + add;
+long X = 1032477L / divide * multiply - subtract + add;
+long Y = 557937L / divide * multiply - subtract + add;
+long Z = 1052703L / divide * multiply - subtract + add;
+
+//Numbers and Characters
+long zero = 9640L / divide1 * multiply1 - subtract1 + add1;//0
+long one = 7249L / divide1 * multiply1 - subtract1 + add1;//1
+long two = 3612L / divide1 * multiply1 - subtract1 + add1;//2
+long three = 4456L / divide1 * multiply1 - subtract1 + add1;//3
+long four = 6366L / divide1 * multiply1 - subtract1 + add1;//4
+long five = 9765L / divide1 * multiply1 - subtract1 + add1;//5
+long six = 1285L / divide1 * multiply1 - subtract1 + add1;//6
+long seven = 2876L / divide1 * multiply1 - subtract1 + add1;//7
+long eight = 9100L / divide1 * multiply1 - subtract1 + add1;//8
+long nine = 1071L / divide1 * multiply1 - subtract1 + add1;//9
+long ten = 9008L / divide1 * multiply1 - subtract1 + add1;//10
+long space = 2531L / divide1 * multiply1 - subtract1 + add;//" "
+long openbracket = 2291L / divide1 * multiply1 - subtract1 + add1;//(
+long closebracket = 4390L / divide1 * multiply1 - subtract1 + add1;//)
+long exclamation = 3029L / divide1 * multiply1 - subtract1 + add1;//!
+long question = 1909L / divide1 * multiply1 - subtract1 + add1;//?
+long at = 7767L / divide1 * multiply1 - subtract1 + add1; //@
+long apostrophe = 6509L / divide1 * multiply1 - subtract1 + add1; //'
+long money = 2008L / divide1 * multiply1 - subtract1 + add1; //$
+long hashtag = 9603L / divide1 * multiply1 - subtract1 + add1; //#
+long precent = 7540L / divide1 * multiply1 - subtract1 + add1; //%
+long power = 3609L / divide1 * multiply1 - subtract1 + add1; //^
+long times = 3490L / divide1 * multiply1 - subtract1 + add1; //*
+long addition = 8660L / divide1 * multiply1 - subtract1 + add1; //+
+long subtraction = 1291L / divide1 * multiply1 - subtract1 + add1; //-
+long period = 2800L / divide1 * multiply1 - subtract1 + add1; //.
+long comma = 24301L / divide1 * multiply1 - subtract1 + add1; //,
+long underscore = 28090L / divide1 * multiply1 - subtract1 + add1; //_
+long aNd = 9750L/divide1*multiply1-subtract1+add1;//&
+long slash1 = 5604L/divide1*multiply1-subtract1+add1;// /
+String stringA = String (A);
+String stringB = String (B);
+String stringC = String (C);
+String stringD = String (D);
+String stringE = String (E);
+String stringF = String (F);
+String stringG = String (G);
+String stringH = String (H);
+String stringI = String (I);
+String stringJ = String (J);
+String stringK = String (K);
+String stringL = String (L);
+String stringM = String (M);
+String stringN = String (N);
+String stringO = String (O);
+String stringP = String (P);
+String stringQ = String (Q);
+String stringR = String (R);
+String stringS = String (S);
+String stringT = String (T);
+String stringU = String (U);
+String stringV = String (V);
+String stringW = String (W);
+String stringX = String (X);
+String stringY = String (Y);
+String stringZ = String (Z);
+String string0 = String (zero);
+String string1 = String (one);
+String string2 = String (two);
+String string3 = String (three);
+String string4 = String (four);
+String string5 = String (five);
+String string6 = String (six);
+String string7 = String (seven);
+String string8 = String (eight);
+String string9 = String (nine);
+String string10 = String (ten);
+String Space = String (space);
+String Openbracket = String (openbracket);
+String Closebracket = String (closebracket);
+String Exclamation = String (exclamation);
+String Question = String (question);
+String AT = String (at);//@
+String Apostrophe = String (apostrophe);//'
+String Money = String (money);//$
+String Hashtag = String (hashtag);
+String Power = String (power);
+String Precent = String (precent);
+String Times = String (times);
+String Subtraction = String (subtraction);
+String Addition = String (addition);
+String Comma = String (comma);
+String Period = String (period);
+String Underscore = String (underscore);
+String And = String (aNd);
+String Slash1 = String (slash1);
+void setup() {//happens ounce and it happens when the audrino is turned on
+  Serial.begin(BAUD);
+  Serial.print("BAUD that was chosen is ");
+  Serial.print(BAUD);
+  Serial.println();
+}
+void
+loop() {//Repeates this forever
+  String input;
+  input = Serial.readStringUntil('\n');
+  /****************************************************************************/
+  if (input.equals(F("A")) || input.equals(F("a")) ) { // if serial input = A or a than.......
+    Serial.println();
+    Serial.println(F("Letter:A"));
+    Serial.println(F("Binary:A=01000001|a=01100001"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringA);
+    Serial.println();
+    Serial.println(F("Morse:.-"));
+    Serial.println(F("HexaDecimal:A=65|a=97"));
+
+  }
+  if (input.equals(stringA)) {
+    Serial.print("A");
+  }
+
+  if (input.equals(F("01000001")) || input.equals(F("01100001")) || input.equals(F(".-")) || input.equals(F("65")) || input.equals(F("97"))) { //Binary
+    Serial.print(F("A"));
+  }
+
+  /**********************************************************************************/
+  if (input.equals(F("B")) || input.equals(F("b"))) {
+    Serial.println();
+    Serial.println(F("Letter:B"));
+    Serial.println(F("Binary:B=01000010|b=01100010"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringB);
+    Serial.println();
+    Serial.println(F("HexaDecimal:B=66|b=98"));
+    Serial.println(F("Morse:-..."));
+  }
+  if (input.equals(stringB)) { //Hex
+    Serial.print(F("B"));
+  }
+  if (input.equals(F("01000010")) || input.equals(F("01100010"))) { //Binary
+    Serial.print(F("B"));
+  }
+  if (input.equals(F("-..."))) { //Morse
+    Serial.print(F("B"));
+  }
+  if (input.equals(F("98")) || input.equals(F("66"))) {
+    Serial.println(F("B"));
+  }
+  /*********************************************************************************/
+  if (input.equals(F("C")) || input.equals(F("c"))) {
+    Serial.println();
+    Serial.println(F("Letter:C"));
+    Serial.println(F("Binary:C=01000011|c=01100011"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringC);
+    Serial.println();
+    Serial.println(F("HexaDecimal:C=67|c=99"));
+    Serial.println(F("Morse:-.-."));
+  }
+  if (input.equals(stringC)) { //HEX
+    Serial.print(F("C"));
+  }
+  if (input.equals(F("01000011")) || input.equals(F("01100011"))) { //Binary
+    Serial.print(F("C"));
+  }
+  if (input.equals(F("99")) || input.equals(F("67"))) { //Hexadecimals
+    Serial.print(F("C"));
+  }
+  if (input.equals(F("-.-."))) { //Morse
+    Serial.print(F("C"));
+  }
+  /****************************************************************************/
+  if (input.equals (F("D")) || input.equals(F("d"))) {
+    Serial.println();
+    Serial.println(F("Letter:D"));
+    Serial.println(F("Binary:D=01000100|d=01100100"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringD);
+    Serial.println();
+    Serial.println(F("Hexadecimal:D=66|d=100"));
+    Serial.println(F("Morse:-.."));
+  }
+  if (input.equals(stringD)) { //Hex
+    Serial.print(F("D"));
+  }
+  if (input.equals(F("01000100")) || input.equals(F("01100100"))) { //Binary
+    Serial.print(F("D"));
+  }
+  if (input.equals(F("-.."))) { //Morse
+    Serial.print(F("D"));
+  }
+  if (input.equals(F("100")) || input.equals(F("68"))) { // Hexa decimal
+    Serial.print(F("D"));
+  }
+  /**************************************************************************/
+  if (input.equals(F("E")) || input.equals(F("e"))) {
+    Serial.println();
+    Serial.println(F("Letter:E"));
+    Serial.println(F("Binary:E=01000101|e=01100101"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringE);
+    Serial.println();
+    Serial.println(F("HexaDecimal:E=69|e=101"));
+    Serial.println(F("Morse:."));
+  }
+  if (input.equals(stringE)) {
+    Serial.print(F("E"));
+  }
+  if (input.equals(F("01000101")) || input.equals(F("01100101"))) {
+    Serial.print(F("E"));
+  }
+  if (input.equals(F("101")) || input.equals(F("69"))) {
+    Serial.print(F("E"));
+  }
+  if (input.equals(F("."))) {
+    Serial.print(F("E"));
+  }
+  //****************************************************************************
+  if (input.equals(F("F")) || input.equals(F("f"))) {
+    Serial.println();
+    Serial.println(F("Letter:F"));
+    Serial.println(F("Binary:F=01000110|f=01100110"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringF);
+    Serial.println();
+    Serial.println(F("Morse:..-."));
+    Serial.println(F("HexaDecimal:F=70|f=102"));
+  }
+  if (input.equals(F("01000110")) || input.equals(F("01100110"))) {
+    Serial.print(F("F"));
+  }
+  if (input.equals(stringF)) {
+    Serial.print(F("F"));
+  }
+  if (input.equals(F("..-."))) {
+    Serial.print(F("F"));
+  }
+  if (input.equals(F("70")) || input.equals(F("102"))) {
+    Serial.print(F("F"));
+  }
+  //********************************************************************************
+  if (input.equals(F("G")) || input.equals(F("g"))) {
+    Serial.println();
+    Serial.println(F("Letter:G"));
+    Serial.println(F("Binary:G=01000111|g=01100111"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringG);
+    Serial.println();
+    Serial.println(F("Morse:--."));
+    Serial.println(F("HexaDecimal:G=71|g=103"));
+  }
+  if (input.equals(F("01000111")) || input.equals(F("01100111"))) {
+    Serial.print(F("G"));
+  }
+  if (input.equals(stringG)) {
+    Serial.print(F("G"));
+  }
+  if (input.equals("71") || input.equals (F("103"))) {
+    Serial.print(F("G"));
+  }
+  //**********************************************************************************
+  if (input.equals(F("H")) || input.equals(F("h"))) {
+    Serial.println();
+    Serial.println(F("Letter:H"));
+    Serial.println(F("Binary:H=:01001000|h=01101000"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringH);
+    Serial.println();
+    Serial.println(F("Morse:...."));
+    Serial.println(F("HexaDecimal:H=72|h=104"));
+  }
+  if (input.equals(F("01001000")) || input.equals(F("01101000"))) {
+    Serial.print(F("H"));
+  }
+  if (input.equals(stringH) || input.equals(F("72")) || input.equals(F("104"))) {
+    Serial.print(F("H"));
+  }
+  if (input.equals(F("...."))) {
+    Serial.print(F("H"));
+  }
+  //****************************************************************************
+  if (input.equals(F("I")) || input.equals(F("i"))) {
+    Serial.println();
+    Serial.println(F("Letter:I"));
+    Serial.println(F("Binary:I=01001001|i=01101001"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringI);
+    Serial.println();
+    Serial.println(F("HexaDecimal:I=73|i=105"));
+    Serial.println(F("Morse:.."));
+  }
+  if (input.equals(F(".."))) {
+    Serial.print(F(".."));
+  }
+  if (input.equals(F("01001001"))) {
+    Serial.print(F("I"));
+  }
+  if (input.equals(stringI)) {
+    Serial.print(F("I"));
+  }
+  if (input.equals(F("73")) || input.equals(F("105"))) {
+    Serial.print(F("I"));
+  }
+
+  if (input.equals(F("J")) || input.equals(F("j"))) {
+    Serial.println();
+    Serial.println(F("Letter:J"));
+    Serial.println(F("Binary:J=01001010|j=01101010"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringJ);
+    Serial.println();
+    Serial.println(F("HexaDecimal:J=74|j=106"));
+    Serial.println(F("Morse:.---"));
+  }
+  if (input.equals(F("01001010")) || input.equals(F("01101011"))) {
+    Serial.print(F("J"));
+  }
+  if (input.equals(F(".---"))) {
+    Serial.print(F("J"));
+  }
+  if (input.equals(F("74")) || input.equals(F("104"))) {
+    Serial.print(F("J"));
+  }
+  if (input.equals(stringJ)) {
+    Serial.print(F("J"));
+  }
+
+  if (input.equals(F("K")) || input.equals(F("k"))) {
+    Serial.println();
+    Serial.println(F("Letter:K"));
+    Serial.println(F("Binary:K=01001011|k=01101011"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringK);
+    Serial.println();
+    Serial.println(F("HexaDecimal:K=75|k=107"));
+    Serial.println(F("Morse:-.-"));
+  }
+  if (input.equals(stringK)) {
+    Serial.print(F("K"));
+  }
+  if (input.equals(F("-.-"))) {
+    Serial.print(F("K"));
+  }
+  if (input.equals(F("01001011")) || input.equals(F("01101011")) || input.equals(F("75")) || input.equals(F("107"))) {
+    Serial.print(F("K"));
+  }
+
+  if (input.equals(F("L")) || input.equals(F("l"))) {
+    Serial.println();
+    Serial.println(F("Letter:L"));
+    Serial.println(F("Binary:L=01001100|l=01101100"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringL);
+    Serial.println();
+    Serial.println(F("HexaDecimal:L=76|l=108"));
+    Serial.println(F("Morse:.-.."));
+
+  }
+  if (input.equals(F(".-.."))) {
+    Serial.print(F("L"));
+  }
+  if (input.equals(F("01001100")) || input.equals(F("01101100"))) {
+    Serial.print(F("L"));
+  }
+  if (input.equals(stringL)) {
+    Serial.print(F("L"));
+  }
+  if (input.equals(F("76")) || input.equals(F("108"))) {
+    Serial.print(F("L"));
+  }
+
+  if (input.equals(F("M")) || input.equals(F("m"))) {
+    Serial.println();
+    Serial.println(F("Letter:M"));
+    Serial.println(F("Binary:M=01001101|m=01101101"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringM);
+    Serial.println(F("Hexadecimal:M=77|m=109"));
+    Serial.println(F("Morse:--"));
+  }
+  if (input.equals(stringM)) {
+    Serial.print(F("M"));
+  }
+  if (input.equals(F("--"))) {
+    Serial.print(F("M"));
+  }
+  if (input.equals(F("01001101")) || input.equals(F("01101101"))) {
+    Serial.print(F("M"));
+  }
+  if (input.equals(F("77")) || input.equals(F("109"))) {
+    Serial.print(F("M"));
+  }
+
+  if (input.equals(F("N")) || input.equals(F("n")) ) {
+    Serial.println();
+    Serial.println(F("Letter:N"));
+    Serial.println(F("Binary:N=01001110|n=01101110"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringN);
+    Serial.println();
+    Serial.println(F("HexaDecimal:N=78|n=110"));
+    Serial.println(F("Morse:-."));
+  }
+  if (input.equals(stringN)) {
+    Serial.print(F("N"));
+  }
+  if (input.equals(F("-."))) {
+    Serial.print(F("N"));
+  }
+  if (input.equals(F("01001110")) || input.equals(F("01101110"))) {
+    Serial.print(F("N"));
+  }
+  if (input.equals(F("78")) || input.equals(F("110"))) {
+    Serial.print(F("N"));
+  }
+
+  if (input.equals(F("O")) || input.equals(F("o"))) {
+    Serial.println();
+    Serial.println(F("Letter:O"));
+    Serial.println(F("Binary:O=01001111|o=01101111"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringO);
+    Serial.println();
+    Serial.println(F("HexaDecimal:O=79|0=111"));
+    Serial.println(F("Morse:---"));
+  }
+  if (input.equals(stringO)) {
+    Serial.print(F("O"));
+  }
+  if (input.equals(F("---"))) {
+    Serial.print(F("O"));
+  }
+  if (input.equals(F("01001111")) || input.equals(F("01101111"))) {
+    Serial.print(F("O"));
+  }
+  if (input.equals(F("79")) || input.equals(F("111"))) {
+    Serial.print(F("O"));
+  }
+
+  if (input.equals(F("P")) || input.equals(F("p"))) {
+    Serial.println();
+    Serial.println(F("Letter:P"));
+    Serial.println(F("Binary:P=01010000|p=01110000"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringP);
+    Serial.println();
+    Serial.println(F("HexDecimal:P=80|p=112"));
+    Serial.println(F("Morse:.--."));
+  }
+  if (input.equals(F("01010000")) || input.equals(F("01110000"))) {
+    Serial.print(F("P"));
+  }
+  if (input.equals(F(".--."))) {
+    Serial.print(F("P"));
+  }
+  if (input.equals(stringP)) {
+    Serial.print(F("P"));
+  }
+  if (input.equals(F("80")) || input.equals(F("112"))) {
+    Serial.print(F("P"));
+  }
+
+  if (input.equals(F("Q")) || input.equals(F("q"))) {
+    Serial.println();
+    Serial.println(F("Letter:Q"));
+    Serial.println(F("Binary:Q=01010001|q=01110001"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringQ);
+    Serial.println();
+    Serial.println(F("HexaDecimal:Q=81|q=113"));
+    Serial.println(F("Morse:--.-"));
+  }
+  if (input.equals(F("01010001")) || input.equals(F("01110001"))) {
+    Serial.print(F("Q"));
+  }
+  if (input.equals(F("--.-"))) {
+    Serial.print(F("Q"));
+  }
+  if (input.equals(stringQ)) {
+    Serial.print(F("Q"));
+  }
+  if (input.equals(F("81")) || input.equals(F("113"))) {
+    Serial.print(F("Q"));
+  }
+
+  if (input.equals(F("R")) || input.equals(F("r"))) {
+    Serial.println();
+    Serial.println(F("Letter:R"));
+    Serial.println(F("Binary:R=01010010|r=01110010"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringR);
+    Serial.println();
+    Serial.println(F("HexaDecimal:R=82|r=114"));
+    Serial.println(F("Morse:.-."));
+  }
+  if (input.equals(F(".-."))) {
+    Serial.print(F("R"));
+  }
+  if (input.equals(stringR)) {
+    Serial.print(F("R"));
+  }
+  if (input.equals(F("01010010")) || input.equals(F("01110010"))) {
+    Serial.print(F("R"));
+  }
+  if (input.equals(F("82")) || input.equals(F("114"))) {
+    Serial.print(F("R"));
+  }
+
+  if (input.equals(F("S")) || input.equals(F("s"))) {
+    Serial.println();
+    Serial.println(F("Letter:S"));
+    Serial.println(F("Binary:S=01010011|s=01110011"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringS);
+    Serial.println();
+    Serial.println(F("HexaDecimal:S=83|s=115"));
+    Serial.println(F("Morse:..."));
+  }
+  if (input.equals(F("..."))) {
+    Serial.print(F("S"));
+  }
+  if (input.equals(stringS)) {
+    Serial.print(F("S"));
+  }
+  if (input.equals(F("01010011")) || input.equals(F("01110011"))) {
+    Serial.print(F("S"));
+  }
+  if (input.equals(F("83")) || input.equals(F("115"))) {
+    Serial.print(F("S"));
+  }
+
+  if (input.equals(F("T")) || input.equals(F("t"))) {
+    Serial.println();
+    Serial.println(F("Letter:T"));
+    Serial.println(F("Binary:T=01010100|t=01110100"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringT);
+    Serial.println();
+    Serial.println(F("HexaDecimal:T=84|t=116"));
+    Serial.println(F("Morse:-"));
+  }
+  if (input.equals(F("-"))) {
+    Serial.println(F("T"));
+  }
+  if (input.equals(F("01010100")) || input.equals(F("01110100"))) {
+    Serial.print(F("T"));
+  }
+  if (input.equals(F("84")) || input.equals(F("116"))) {
+    Serial.print(F("T"));
+  }
+
+  if (input.equals(stringT)) {
+    Serial.print(F("T"));
+  }
+
+  if (input.equals(F("U")) || input.equals(F("u"))) {
+    Serial.println();
+    Serial.println(F("Letter:U"));
+    Serial.println(F("Binary:U=01010101|u=01110101"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringU);
+    Serial.println(F("HexaDecimal:U=85|u=117"));
+    Serial.println(F("Morse:..-"));
+
+  }
+  if (input.equals(F("..-"))) {
+    Serial.print(F("U"));
+  }
+  if (input.equals(F("01010101")) || input.equals(F("01110101"))) {
+    Serial.print(F("U"));
+  }
+  if (input.equals(F("85")) || input.equals(F("117"))) {
+    Serial.print(F("U"));
+  }
+
+  if (input.equals(stringU)) {
+    Serial.print(F("U"));
+  }
+
+  if (input.equals(F("V")) || input.equals(F("v"))) {
+    Serial.println();
+    Serial.println(F("Letter:V"));
+    Serial.println(F("Binary:V=01010110|v=01110110"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringV);
+    Serial.println(F("HexaDecimal:V=86|v=118"));
+    Serial.println(F("Morse:...-"));
+  }
+  if (input.equals(F("...-"))) {
+    Serial.print(F("V"));
+  }
+  if (input.equals(F("01010110")) || input.equals(F("01110110"))) {
+    Serial.print(F("V"));
+  }
+  if (input.equals(F("86")) || input.equals(F("118"))) {
+    Serial.print(F("V"));
+  }
+  if (input.equals(stringV)) {
+    Serial.print(F("V"));
+  }
+
+  if (input.equals(F("W")) || input.equals(F("w"))) {
+    Serial.println();
+    Serial.println(F("Letter:W"));
+    Serial.println(F("Binary:W=01010111|w=01110111"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringW);
+    Serial.println();
+    Serial.println(F("HexaDecimal:W=87|w=119"));
+    Serial.println(F("Morse:.--"));
+  }
+  if (input.equals(F("01010111")) || input.equals(F("01110111"))) {
+    Serial.print(F("W"));
+  }
+  if (input.equals(F(".--"))) {
+    Serial.print(F("W"));
+  }
+  if (input.equals(stringW)) {
+    Serial.print(F("W"));
+  }
+  if (input.equals(F("87")) || input.equals(F("119"))) {
+    Serial.print(F("W"));
+  }
+
+  if (input.equals(F("X")) || input.equals(F("x"))) {
+    Serial.println();
+    Serial.println(F("Letter:X"));
+    Serial.println(F("Binary:X=01001001|x=01111000"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringX);
+    Serial.println();
+    Serial.println(F("HexaDecimal:X=88|x=120"));
+    Serial.println(F("Morse:-..-"));
+  }
+  if (input.equals(F("01001001")) || input.equals(F("01111000"))) {
+    Serial.print(F("X"));
+  }
+  if (input.equals(stringX)) {
+    Serial.print(F("X"));
+  }
+
+  if (input.equals(F("88")) || input.equals(F("120")) || input.equals(F("-..-"))) {
+    Serial.print(F("X"));
+  }
+
+  if (input.equals(F("Y")) || input.equals(F("y"))) {
+    Serial.println();
+    Serial.println(F("Letter:Y"));
+    Serial.println(F("Binary:Y=01011001|y=01111001"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringY);
+    Serial.println();
+    Serial.println(F("HexaDecimal:Y=89|y=121"));
+    Serial.println(F("Morse:-.--"));
+  }
+  if (input.equals(stringY)) {
+    Serial.print(F("Y"));
+  }
+  if (input.equals(F("-.--"))) {
+    Serial.print(F("Y"));
+  }
+  if (input.equals(F("89")) || input.equals(F("121"))) {
+    Serial.print(F("Y"));
+  }
+  if (input.equals(F("01011001")) || input.equals(F("01111001"))) {
+    Serial.print(F("Y"));
+  }
+
+  if (input.equals(F("Z")) || input.equals(F("z"))) {
+    Serial.println();
+    Serial.println(F("Letter:Z"));
+    Serial.println(F("Binary:Z=01011010|z=01111010"));
+    Serial.print(F("HEX:"));
+    Serial.print(stringZ);
+    Serial.println();
+    Serial.println(F("HexaDecimal:Z=90|z=122"));
+    Serial.println(F("Morse:--.."));
+  }
+  if (input.equals(F("--.."))) {
+    Serial.println(F("Z"));
+  }
+  if (input.equals(stringZ)) {
+    Serial.print(F("Z"));
+  }
+  if (input.equals(F("90")) || input.equals(F("121"))) {
+    Serial.print(F("Z"));
+  }
+  if (input.equals(F("01011010")) || input.equals(F("01111010"))) {
+    Serial.print(F("Z"));
+  }
+
+  if (input.equals(F("0"))||input.equals("Zero")||input.equals("zero")||input.equals("ZERO")) {
+    Serial.println();
+    Serial.println(F("Number:0"));
+    Serial.println(F("Binary:000000"));
+    Serial.print(F("HEX:"));
+    Serial.print(string0);
+    Serial.println();
+    Serial.println(F("Morse:-----"));
+  }
+  if (input.equals(F("1"))||input.equals(F("one"))||input.equals("One")||input.equals("ONE")) {
+    Serial.println();
+    Serial.println(F("Number:1"));
+    Serial.println(F("Binary:000001"));
+    Serial.print(F("HEX:"));
+    Serial.print(string1);
+    Serial.println();
+    Serial.println(F("Morse:.----"));
+  }
+  if (input.equals(F("2"))||input.equals(F("Two"))||input.equals("TWO")||input.equals("two")) {
+    Serial.println();
+    Serial.println(F("Number:2"));
+    Serial.println(F("Binary:000010"));
+    Serial.print(F("HEX:"));
+    Serial.print(string2);
+    Serial.println();
+    Serial.println(F("Morse:...---"));
+  }
+  if (input.equals(F("3"))||input.equals("Three")||input.equals("THREE")||input.equals("three")) {
+    Serial.println();
+    Serial.println(F("Number:3"));
+    Serial.println(F("Binary:000011"));
+    Serial.print(F("HEX:"));
+    Serial.print(string3);
+    Serial.println();
+    Serial.println(F("Morse:...--"));
+  }
+  if (input.equals(F("4"))) {
+    Serial.println();
+    Serial.println(F("Number:4"));
+    Serial.println(F("Binary:000100"));
+    Serial.print(F("HEX:"));
+    Serial.print(string4);
+    Serial.println();
+    Serial.println(F("Morse:....-"));
+  }
+  if (input.equals(F("5"))) {
+    Serial.println();
+    Serial.println(F("Number:5"));
+    Serial.println(F("Binary:000101"));
+    Serial.print(F("HEX:"));
+    Serial.print(string5);
+    Serial.println();
+    Serial.println(F("Morse:....."));
+  }
+  if (input.equals(F("6"))) {
+    Serial.println();
+    Serial.println(F("Number:6"));
+    Serial.println(F("Binary:000110"));
+    Serial.print(F("HEX:"));
+    Serial.print(string6);
+    Serial.println();
+    Serial.println(F("Morse:-...."));
+  }
+  if (input.equals(F("7"))) {
+    Serial.println();
+    Serial.println(F("Number:7"));
+    Serial.println(F("Binary:000111"));
+    Serial.print(F("HEX:"));
+    Serial.print(string7);
+    Serial.println();
+    Serial.println(F("Morse:--..."));
+  }
+  if (input.equals(F("8"))) {
+    Serial.println();
+    Serial.println(F("Number:8"));
+    Serial.println(F("Binary:001000"));
+    Serial.print(F("HEX:"));
+    Serial.print(string8);
+    Serial.println();
+    Serial.println(F("Morse:---.."));
+  }
+  if (input.equals(F("9"))) {
+    Serial.println();
+    Serial.println(F("Number:9"));
+    Serial.println(F("Binary:001001"));
+    Serial.print(F("HEX:"));
+    Serial.print(string9);
+    Serial.println();
+    Serial.println(F("Morse:----."));
+  }
+  if (input.equals(F("10"))) {
+    Serial.println();
+    Serial.println(F("Number:10"));
+    Serial.println(F("Binary:001010"));
+    Serial.print(F("HEX:"));
+    Serial.print(string10);
+  }
+
+  if (input.equals(F("000000"))) {
+    Serial.print(F("0"));
+  }
+  if (input.equals(string0)) {
+    Serial.print(F("0"));
+  }
+  if (input.equals(F("000001"))) {
+    Serial.print(F("1"));
+  }
+  if (input.equals(string1)) {
+    Serial.print(F("1"));
+  }
+  if (input.equals(F("000010"))) {
+    Serial.print(F("2"));
+  }
+  if (input.equals(string2)) {
+    Serial.print(F("2"));
+  }
+  if (input.equals(F("000011"))) {
+    Serial.print(F("3"));
+  }
+  if (input.equals(string3)) {
+    Serial.print(F("3"));
+  }
+  if (input.equals(F("000100"))) {
+    Serial.print(F("4"));
+  }
+  if (input.equals(string4)) {
+    Serial.print(F("4"));
+  }
+  if (input.equals(F("000101"))) {
+    Serial.print(F("5"));
+  }
+  if (input.equals(string4)) {
+    Serial.print(F("5"));
+  }
+  if (input.equals(F("000110"))) {
+    Serial.print(F("6"));
+  }
+  if (input.equals(string6)) {
+    Serial.print(F("6"));
+  }
+  if (input.equals(F("000111"))) {
+    Serial.print(F("7"));
+  }
+  if (input.equals(string7)) {
+    Serial.print(F("7"));
+  }
+  if (input.equals(F("001000"))) {
+    Serial.print(F("8"));
+  }
+  if (input.equals(string8)) {
+    Serial.print(F("8"));
+  }
+  if (input.equals(F("001001"))) {
+    Serial.print(F("9"));
+  }
+  if (input.equals(string9)) {
+    Serial.print(F("9"));
+  }
+  if (input.equals(F("001010"))) {
+    Serial.print(F("10"));
+  }
+  if (input.equals(string10)) {
+    Serial.print(F("10"));
+  }
+  if (input.equals(F(" ")) || input.equals(F("space")) || input.equals(F("SPACE"))) {
+    Serial.println();
+    Serial.println(F("Character=SPACE"));
+    Serial.println(F("Binary:00100000"));
+    Serial.print(F("HEX:"));
+    Serial.print(Space);
+  }
+  if (input.equals(F("("))) {
+    Serial.println();
+    Serial.println(F("Character=("));
+    Serial.println(F("Binary:00101000"));
+    Serial.print(F("HEX:"));
+    Serial.print(Openbracket);
+
+  }
+  if (input.equals(F(")"))) {
+    Serial.println();
+    Serial.println(F("Character=)"));
+    Serial.println(F("Binary:00101001"));
+    Serial.print(F("HEX:"));
+    Serial.print(Closebracket);
+
+  }
+  if (input.equals(F("!"))) {
+    Serial.println();
+    Serial.println(F("Character=!"));
+    Serial.println(F("Binary:00100001"));
+    Serial.print(F("HEX:"));
+    Serial.print(Exclamation);
+  }
+  if (input.equals(F("?"))) {
+    Serial.println();
+    Serial.println(F("Character=?"));
+    Serial.println(F("Binary:00111111"));
+    Serial.print(F("HEX:"));
+    Serial.print(Question);
+  }
+  if (input.equals(F("'"))) {
+    Serial.println();
+    Serial.println(F("Character='"));
+    Serial.println(F("Binary:00101100"));
+    Serial.print(F("HEX:"));
+    Serial.print(Apostrophe);
+  }
+  if (input.equals(F("."))) {
+    Serial.println();
+    Serial.println(F("Character=."));
+    Serial.println(F("Binary:00101110"));
+    Serial.print(F("HEX:"));
+    Serial.print(Period);
+  }
+
+  if (input.equals(F("00100000"))) {
+    Serial.print(F(" "));
+  }
+  if (input.equals(F("00101001"))) {
+    Serial.print(F(")"));
+  }
+  if (input.equals(Closebracket)) {
+    Serial.print(F(")"));
+  }
+  if (input.equals(Space)) {
+    Serial.print(F(" "));
+  }
+  if (input.equals(F("00101000"))) {
+    Serial.print(F("("));
+  }
+  if (input.equals(Openbracket)) {
+    Serial.print(F("("));
+  }
+  if (input.equals(F("00100010"))) {
+    Serial.print(F("”"));
+  }
+  if (input.equals(Apostrophe)) {
+    Serial.print(F("'"));
+  }
+  if (input.equals(F("00101100"))) {
+    Serial.print(F("'"));
+  }
+  if (input.equals(F("00100001"))) {
+    Serial.print(F("!"));
+  }
+  if (input.equals(Exclamation)) {
+    Serial.print(F("!"));
+  }
+  if (input.equals(F("00111111"))) {
+    Serial.print(F("?"));
+  }
+  if (input.equals(Question)) {
+    Serial.print(F("?"));
+  }
+  if (input.equals(F("00101110"))) {
+    Serial.print(F("."));
+  }
+
+  if (input.equals(F("00100111"))) {
+    Serial.print(F(","));
+  }
+  if (input.equals(Comma)) {
+    Serial.print(F(","));
+  }
+
+ 
+// Morse Code Numbers
+
+  if (input.equals(F(".----"))) {
+    Serial.print(F("1"));
+  }
+  if (input.equals(F("...---"))) {
+    Serial.print(F("2"));
+  }
+  if (input.equals(F("...--"))) {
+    Serial.print(F("3"));
+  }
+  if (input.equals(F("....-"))) {
+    Serial.print(F("4"));
+  }
+  if (input.equals(F("....."))) {
+    Serial.print(F("5"));
+  }
+  if (input.equals(F("-...."))) {
+    Serial.print(F("6"));
+  }
+  if (input.equals(F("--..."))) {
+    Serial.print(F("7"));
+  }
+  if (input.equals(F("---.."))) {
+    Serial.print(F("8"));
+  }
+  if (input.equals(F("----."))) {
+    Serial.print(F("9"));
+  }
+  if (input.equals(F("-----"))) {
+    Serial.print(F("0"));
+  }
+  if (input.equals("@")) {
+    Serial.println();
+    Serial.println(F("Character=@"));
+    Serial.println(F("Binary:01000000"));
+    Serial.print("Hex:");
+    Serial.print(AT);
+  }
+  if (input.equals("01000000")) {
+    Serial.print("@");
+  }
+  if (input.equals("$")) {
+    Serial.println();
+    Serial.println(F("Character:$"));
+    Serial.println(F("Binary:00100100"));
+    Serial.print(F("Hex:"));
+    Serial.print(Money);
+  }
+  if (input.equals(AT)) {
+    Serial.print(F("@"));
+  }
+  if (input.equals(Money)) {
+    Serial.print(F("$"));
+  }
+  if (input.equals(F("00100100"))) {
+    Serial.print(F("$"));
+  }
+  if (input.equals("#")) {
+    Serial.println();
+    Serial.println(F("Character:#"));
+    Serial.println(F("Binary:00100011"));
+    Serial.print(F("Hex:"));
+    Serial.print(Hashtag);
+  }
+  if (input.equals(F("00100011"))) {
+    Serial.print(F("#"));
+  }
+  if (input.equals(Hashtag)) {
+    Serial.print("#");
+  }
+  if (input.equals("^")) {
+    Serial.println();
+    Serial.println(F("Character:^"));
+    Serial.print(F("Hex:"));
+    Serial.print(Power);
+  }
+  if (input.equals(power)) {
+    Serial.print(F("^"));
+  }
+  if (input.equals(F("%"))) {
+    Serial.println();
+    Serial.println(F("Character:%"));
+    Serial.println(F("Binary:00100101"));
+    Serial.print(F("Hex:"));
+    Serial.print(Precent);
+  }
+  if (input.equals(Precent)) {
+    Serial.print(F("%"));
+  }
+  if (input.equals(F("00100101"))) {
+    Serial.print(F("%"));
+  }
+  if (input.equals(F("_"))) {
+    Serial.println();
+    Serial.println(F("Character:_"));
+    Serial.println(F("Binary:01011111"));
+    Serial.print(F("Hex:"));
+    Serial.print(Underscore);
+  }
+  if (input.equals(F("01011111"))) {
+    Serial.print(F("_"));
+  }
+  if (input.equals(Underscore)) {
+    Serial.print(F("_"));
+  }
+  if (input.equals(F("+"))) {
+    Serial.println();
+    Serial.println(F("Character:+"));
+    Serial.println(F("Binary:00101011"));
+    Serial.print(F("Hex:"));
+    Serial.print(Addition);
+  }
+  if (input.equals(F("00101011"))) {
+    Serial.print(F("+"));
+  }
+  if (input.equals(Addition)) {
+    Serial.print(F("+"));
+  }
+  if (input.equals(F("*"))) {
+    Serial.println();
+    Serial.println(F("Character:*"));
+    Serial.println(F("Binary:00101010"));
+    Serial.print(F("Hex:"));
+    Serial.print(Times);
+  }
+
+  if (input.equals(Times)) {
+    Serial.print(F("*"));
+  }
+  if (input.equals(F("00101010"))) {
+    Serial.println(F("*"));
+  }
+  if (input.equals(F("-"))) {
+    Serial.println();
+    Serial.println(F("Character:-"));
+    Serial.println(F("Binary:00101101"));
+    Serial.print(F("Hex;"));
+    Serial.print(Subtraction);
+  }
+  if (input.equals(Subtraction)) {
+    Serial.print(F("-"));
+  }
+  if (input.equals(F("00101101"))) {
+    Serial.print(F("-"));
+  }
+  if(input.equals(F("&"))||input.equals(F("and"))||input.equals(F("And"))||input.equals(F("And"))){
+    Serial.println();
+    Serial.println(F("Character:&"));
+    Serial.println(F("Binary:00100110"));
+    Serial.print(F("Hex"));
+    Serial.print(And);
+  }
+  if(input.equals(F("00100110"))){
+    Serial.print(F("&"));
+  }
+  if(input.equals(And)){
+    Serial.print(F("&"));
+  }
+  if(input.equals(F("/"))){
+    Serial.println();
+    Serial.println(F("Character:/"));
+    Serial.println(F("Binary:00101111"));
+    Serial.print(F("Hex:"));
+    Serial.print(Slash1);
+  }
+  if(input.equals("11")){
+    Serial.println();
+    Serial.println(F("Number:11"));
+    Serial.println(F("Binary:00001011"));
+  }
+  if(input.equals("00001011")){
+    Serial.print(F("11"));
+  }
+  if(input.equals("12")){
+    Serial.println();
+    Serial.println(F("Number:12"));
+    Serial.println("Binary:00001100");
+  }
+  if(input.equals("00001100")){
+    Serial.print("12");
+  }
+  if(input.equals("13")){
+    Serial.println();
+    Serial.println("Number:13");
+    Serial.println("Binary:00001101");
+  }
+  if(input.equals("00001101")){
+    Serial.print("13");
+  }
+  if(input.equals("14")){
+    Serial.println();
+    Serial.println("Number:14");
+    Serial.println("Binary:00001110");
+  }
+  if(input.equals(F("00001110"))){
+    Serial.print("14");
+  }
+  if(input.equals("15")){
+    Serial.println();
+    Serial.println("Number:15");
+    Serial.println("Binary:00001111");
+  }
+  if(input.equals("00001111")){
+    Serial.print("15");
+  }
+  if(input.equals("16")){
+    Serial.println();
+    Serial.println("Number:16");
+    Serial.println("Binary:00010000");
+    }
+    if(input.equals("00010000")){
+      Serial.print("16");
+    }
+    if(input.equals("17")){
+      Serial.println();
+      Serial.println("Number:17");
+      Serial.println("Binary:00010001");
+    }
+    if(input.equals(F("00010001"))){
+      Serial.print(F("17"));
+    }
+    if(input.equals(F("18"))){
+      Serial.println();
+      Serial.println("Number:18");
+      Serial.println("Binary:00010010");
+    }
+    if(input.equals(F("00010010"))){
+Serial.print("18");
+    }
+    if(input.equals(F("19"))){
+      Serial.println();
+      Serial.println("Number:19");
+      Serial.println(F("Binary:00010011"));
+    }
+    if(input.equals(F("00010011"))){
+      Serial.print("19");
+    }
+    if(input.equals(F("20"))){
+Serial.println();
+Serial.println(F("Number:20"));
+Serial.println(F("Binary:00010100"));
+    }
+    if(input.equals(F("00010100"))){
+    Serial.print(F("20"));
+}
+if(input.equals(F("21"))){
+  Serial.println();
+  Serial.println(F("Number:21"));
+  Serial.println(F("Binary:00010101"));
+}
+if(input.equals(F("00010101"))){
+  Serial.print(F("21"));
+}
+if(input.equals(F("22"))){
+  Serial.println();
+  Serial.println(F("Number:22"));
+  Serial.println(F("Binary:00010110"));
+}
+if(input.equals(F("00010110"))){
+  Serial.println(F("22"));
+}
+if(input.equals(F("23"))){
+  Serial.println();
+  Serial.println(F("Number:23"));
+  Serial.println(F("Binary:00010111"));
+}
+if(input.equals(F("24"))){
+  Serial.println();
+  Serial.println(F("Number:24"));
+  Serial.println("Binary:00011000");
+}
+if(input.equals(F("00011000"))){
+  Serial.print("24");
+}
+if(input.equals(F("25"))){
+  Serial.println();
+  Serial.println("Number:25");
+  Serial.println("Binary:00011001");
+}
+if(input.equals(F("00011001"))){
+  Serial.print(F("25"));
+}
+if(input.equals(F("26"))){
+  Serial.println();
+  Serial.println("Number:26");
+  Serial.println(F("Binary:00011010"));
+}
+if(input.equals(F("00011010"))){
+  Serial.println(F("26"));
+}
+if(input.equals(F("27"))){
+  Serial.println();
+  Serial.println("Number:27");
+  Serial.println("Binary:00011011");
+}
+if(input.equals(F("00011100"))){
+  Serial.print(F("27"));
+  }
+  if(input.equals(F("28"))){
+    Serial.println();
+    Serial.println(F("Number:28"));
+    Serial.println(F("Binary:00011100"));
+  }
+  if(input.equals(F("00011100"))){
+    Serial.print(F("28"));
+  }
+  if(input.equals(F("29"))){
+    Serial.println();
+    Serial.println(F("Number:29"));
+    Serial.println(F("Binary:00011101"));
+  }
+  if(input.equals(F("00011101"))){
+    Serial.print(F("29"));
+  }
+  if(input.equals(F("30"))){
+    Serial.println();
+    Serial.println("Number:30");
+    Serial.println("Binary:00011110");
+  }
+} 
